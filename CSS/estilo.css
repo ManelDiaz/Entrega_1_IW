@@ -1,3 +1,48 @@
-img{
-    width: 100px;
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*1 rem son 10pixels*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*Estilos globales*/
+body {
+    font-size: 1.6rem;
+    background-color: #111111;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.tabla_footer,h1,h2,h3,p {
+    color: aliceblue;
+
+}
+h2{
+    font-size: 5rem;
+    color: rgb(167, 167, 101);
+}
+@media (min-width: 768px) {
+    h2 {
+        font-size: 5rem;
+    }
+}
+h3{
+    font-size: 3rem;
+    color: rgb(167, 167, 101);
+}
+@media (min-width: 768px) {
+    h3 {
+        font-size: 3rem;
+    }
+}
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(167, 167, 101)
 }
