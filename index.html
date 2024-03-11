@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head><!--Incluimos todos los datos relevantes para la página WEB-->
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="Entrega_1_Inicio" content="width=device-width, initial-scale=1.0">
@@ -14,20 +14,21 @@
 
     <main class="main">
 
-        <header class="header"> <!--Aquí mostraremos el logotipo de le empresa como imagen pincipal-->
-            <a href=""><img src="img/logotipo_sinfondo.png" alt="Logotipo Xchange"></a>
+        <header class="container">
+            <div class="header">
+                <img src="img/logotipo_sinfondo.png" alt="Logotipo Xchange">
+                <nav class="nav">
+
+                    <a href="index.html">Inicio</a>
+                    <a href="Objetivos.html">Objetivos</a>
+                    <a href="Productos.html">Productos</a>
+                </nav>
+            </div>
         </header>
 
-        <nav class="nav">
-            <!--En esta sección agruparemos los distintos enlaces que permitirán navegar por las distintas páginas-->
-            <a href="index.html">Inicio</a>
-            <a href="Objetivos.html">Objetivos</a>
-            <a href="Productos.html">Productos</a>
-        </nav>
+        <section class="container">
 
-        <section class="hero"><!--En esta sección contendremos al hero de la página Inicio-->
-
-            <div class="hero_img">
+            <div class="hero">
                 <img src="img/Movil_Modulos.jpeg">
             </div>
 
@@ -38,7 +39,7 @@
 
         </section>
 
-        <section class="principios"><!--En esta sección incluímos un resumen de la marca-->
+        <section class="container">
 
             <h2>Principios de Xchange</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dicta, aliquam nisi ratione quos
@@ -47,7 +48,7 @@
 
         </section>
 
-        <section class="caract"><!--En esta sección hablamos de las caracerísticas a destacar de nuestros productos-->
+        <section class="container">
 
             <article class="ventajas">
 
@@ -92,14 +93,14 @@
                 </div>
 
                 <div class="caract_img">
-                    <!--Imagen-->
+
                 </div>
 
             </article>
 
         </section>
 
-        <section class="feedback"><!--En esta sección recojemos una muestra del feedback de la comunidad de usuarios-->
+        <section class="container">
 
             <div class="feedback_titulo">
                 <h2>Comentarios y Experiencia de Usuarios</h2>
@@ -151,7 +152,7 @@
 
 <footer>
 
-    <table class="table">
+    <table class="container">
 
         <thead class="table_h">
 
