@@ -1,1 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*1 rem son 10pixels*/
+}
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    background-color: #333;
+    color: aliceblue;
+}
+
+.container{
+    margin: 2rem 1rem 2rem 1rem;
+    background-color: red;
+}
