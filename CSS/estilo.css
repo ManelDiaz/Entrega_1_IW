@@ -117,6 +117,7 @@ a {
     font-weight: 400;
     padding: 2rem;
     transition: background-color .4s ease-out;
+    
 }
 
 .btn:hover {
@@ -136,6 +137,7 @@ a {
     color: black;
     position: relative;
     padding: 1rem 2rem 1.5rem 2rem;
+
 }
 
 .hero_txt a {
@@ -143,4 +145,12 @@ a {
     position: relative;
     max-width: 40rem;
     top: 5rem;
+}
+.cacracteristicas h2{
+    background-color: #222;
+    padding: 2rem;
+}
+.ventajas_txt h3{
+    background-color: #222;
+    padding: 1rem;
 }
