@@ -124,3 +124,23 @@ a {
     border: 1px solid white;
     background-color: #444;
 }
+
+.hero {
+    background-image: url(../img/Hero.jpg);
+    height: 65rem;
+    background-size: cover;
+
+}
+
+.hero_txt h1 {
+    color: black;
+    position: relative;
+    padding: 1rem 2rem 1.5rem 2rem;
+}
+
+.hero_txt a {
+    text-align: right;
+    position: relative;
+    max-width: 40rem;
+    top: 5rem;
+}
