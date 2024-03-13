@@ -1,6 +1,8 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
     /*1 rem son 10pixels*/
 }
 
@@ -13,7 +15,7 @@ html {
 /*Globales*/
 body {
     font-family: "Raleway", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 img {
@@ -117,6 +119,7 @@ a {
     font-weight: 400;
     padding: 2rem;
     transition: background-color .4s ease-out;
+    text-align: center;
 
 }
 
@@ -149,13 +152,15 @@ a {
 }
 
 .cacracteristicas h2 {
-    background-color: #222;
+    background-color: #111;
     padding: 2rem;
     position: relative;
     text-align: center;
 }
 
-.ventajas_txt h3,.objetivos_txt h3,.caract h3 {
+.ventajas_txt h3,
+.objetivos_txt h3,
+.caract h3 {
     background-color: #111;
     padding: 1rem;
     position: relative;
@@ -163,14 +168,64 @@ a {
 
 }
 
-.ventajas,
-.objetivos,
-.caract {
-    max-width: 40rem;
-    margin: 2rem;
+
+.grid-container>* {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 2rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: #444;
+    align-items: center;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-template-areas:
+        "ventajas"
+        "objetivos"
+        "caract";
+}
+
+@media (min-width:600px) {
+    .grid-container {
+        display: grid;
+        gap: 1rem;
+        grid-template-areas:
+            "ventajas objetivos"
+            "caract caract";
+    }
+}
+
+@media (min-width:900px) {
+    .grid-container {
+        display: grid;
+        gap: 1rem;
+        grid-template-areas:
+            "ventajas objetivos caract";
+    }
+}
+
+.ventajas {
+    grid-area: ventajas;
+}
+
+.objetivos {
+    grid-area: objetivos;
+}
+
+.caract {
+    grid-area: caract;
+}
+
+.grid-container img{
+    max-width: 25rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.objetivos_btn{
+    position: relative;
+    padding: 0 auto 0 auto;
+    max-width: 20rem;
 }
