@@ -197,8 +197,13 @@ a {
         "objetivos"
         "caract";
 }
+.grid-container img {
+    max-width: 15rem;
+    position: relative;
+    margin: 0 auto;
+}
 
-@media (min-width:600px) {
+@media (min-width:1100px) {
     .grid-container {
         display: grid;
         gap: 1rem;
@@ -206,14 +211,25 @@ a {
             "ventajas objetivos"
             "caract caract";
     }
+    .grid-container img {
+        max-width: 20rem;
+        position: relative;
+        margin: 0 auto;
+    }
 }
 
-@media (min-width:1000px) {
+@media (min-width:1400px) {
     .grid-container {
         display: grid;
         gap: 1rem;
         grid-template-areas:
             "ventajas objetivos caract";
+    }
+
+    .grid-container img {
+        max-width: 25rem;
+        position: relative;
+        margin: 0 auto;
     }
 }
 
@@ -229,11 +245,7 @@ a {
     grid-area: caract;
 }
 
-.grid-container img {
-    max-width: 15rem;
-    position: relative;
-    margin: 0 auto;
-}
+
 
 .objetivos_btn {
 
@@ -251,10 +263,11 @@ table {
     text-align: center;
     background-color: #444;
     align-items: center;
+    font-size: 2rem;
 }
 
 table img {
-    max-width: 15rem;
+    max-width: 20rem;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 1rem;
     padding: 1.5rem;
@@ -263,9 +276,25 @@ table img {
     margin: 2rem auto 2rem auto;
 }
 
+.dir,
+.telef {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1rem;
+    padding: 5rem;
+    background-color: aliceblue;
+    margin: 4rem auto 4rem auto;
+    color: black;
+}
+
+
 thead,
 tbody {
     width: 25%;
+}
 
-
+.OBJ h2{
+    background-color: #111;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
 }
