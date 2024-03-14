@@ -292,9 +292,14 @@ tbody {
     width: 25%;
 }
 
-.OBJ h2{
+.OBJ h2, .titulo h2{
     background-color: #111;
     padding: 2rem;
     position: relative;
     text-align: center;
+}
+
+.img_titulo{
+    flex: column;
+    margin: 0 auto;
 }
