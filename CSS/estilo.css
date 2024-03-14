@@ -303,3 +303,24 @@ tbody {
     flex: column;
     margin: 0 auto;
 }
+
+ul{
+    list-style: none;
+    margin:0px 0px 0px 9px; padding:0px 0px 0px 9px;
+}
+
+.procesadores{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1rem;
+    padding: 5rem;
+    background-color:#444;
+    margin: 4rem auto 4rem auto;
+}
+
+.procesadores h4{
+    background-color: #ffffff;
+    color: black;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+}
