@@ -15,7 +15,7 @@ html {
 /*Globales*/
 body {
     font-family: "Raleway", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 img {
@@ -94,6 +94,7 @@ a {
 .header img {
     flex: column;
     margin: 0 auto;
+    max-width: 40rem;
 }
 
 
@@ -168,10 +169,20 @@ a {
 
 }
 
+.ventajas_txt p,
+.objetivos_txt p,
+.caract p {
+    position: relative;
+    margin: 5rem auto 5rem auto;
+    text-align: center;
+    max-width: 80%;
+
+}
+
 
 .grid-container>* {
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 3rem;
     text-align: center;
     background-color: #444;
@@ -197,7 +208,7 @@ a {
     }
 }
 
-@media (min-width:900px) {
+@media (min-width:1000px) {
     .grid-container {
         display: grid;
         gap: 1rem;
@@ -218,14 +229,43 @@ a {
     grid-area: caract;
 }
 
-.grid-container img{
-    max-width: 25rem;
+.grid-container img {
+    max-width: 15rem;
     position: relative;
     margin: 0 auto;
 }
 
-.objetivos_btn{
-    position: relative;
-    padding: 0 auto 0 auto;
+.objetivos_btn {
+
+    margin: 10rem auto 4rem auto;
+    text-align: center;
     max-width: 20rem;
+    min-width: 40rem;
+}
+
+table {
+    width: 95%;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: #444;
+    align-items: center;
+}
+
+table img {
+    max-width: 15rem;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 2rem;
+    background-color: aliceblue;
+    margin: 2rem auto 2rem auto;
+}
+
+thead,
+tbody {
+    width: 25%;
+
+
 }
