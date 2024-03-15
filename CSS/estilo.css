@@ -329,7 +329,7 @@ tbody {
     font-size: 2rem;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .flex-container {
         display: flex;
     }
