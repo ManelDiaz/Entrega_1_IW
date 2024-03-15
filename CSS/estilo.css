@@ -197,8 +197,9 @@ a {
         "objetivos"
         "caract";
 }
+
 .grid-container img {
-    max-width: 15rem;
+    max-width: 20rem;
     position: relative;
     margin: 0 auto;
 }
@@ -211,8 +212,9 @@ a {
             "ventajas objetivos"
             "caract caract";
     }
+
     .grid-container img {
-        max-width: 20rem;
+        max-width: 25rem;
         position: relative;
         margin: 0 auto;
     }
@@ -227,7 +229,7 @@ a {
     }
 
     .grid-container img {
-        max-width: 25rem;
+        max-width: 30rem;
         position: relative;
         margin: 0 auto;
     }
@@ -256,7 +258,7 @@ a {
 }
 
 table {
-    width: 95%;
+    width: 97%;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 1rem;
     padding: 3rem;
@@ -292,39 +294,43 @@ tbody {
     width: 25%;
 }
 
-.OBJ h2, .titulo h2{
+.OBJ h2,
+.titulo h2 {
     background-color: #111;
     padding: 2rem;
     position: relative;
     text-align: center;
 }
 
-.img_titulo{
+.img_titulo {
     flex: column;
     margin: 0 auto;
 }
 
-ul{
-    list-style: none;
-    margin:0px 0px 0px 9px; padding:0px 0px 0px 9px;
-}
-
-.procesadores, .procesador1, .procesador2{
+.obj {
+    width: 95%;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 1rem;
-    padding: 5rem;
-    background-color:#444;
-    margin: 4rem auto 4rem auto;
+    padding: 3rem;
+    text-align: center;
+    background-color: #444;
+    align-items: center;
+    font-size: 2rem;
+    margin: 3rem 4rem 3rem 4rem;
 }
 
-.procesadores h4{
-    background-color: #ffffff;
+
+.obj h3 {
+    background-color: #999;
     color: black;
-    padding: 1rem;
+    padding: 2rem;
     position: relative;
     text-align: center;
+    font-size: 2rem;
 }
 
-.grid-container-2 img{
-    width: 30rem;
+@media (min-width: 1200px){
+    .flex-container {
+        display: flex;
+    }
 }
